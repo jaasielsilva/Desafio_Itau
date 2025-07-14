@@ -14,6 +14,7 @@ import java.util.concurrent.CopyOnWriteArrayList;
 public class TransacaoService {
     private final List<Transacao> transacoes = new CopyOnWriteArrayList<>();
 
+    // metodo de validação valor >= 0 
     public boolean adicionar(TransacaoDTO dto) {
         if (dto.getValor() == null || dto.getDataHora() == null) return false;
 
