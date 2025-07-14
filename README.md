@@ -40,10 +40,6 @@ Content-Type: application/json
 
 GET /estatistica
 
-pgsql
-Copiar
-Editar
-
 **Resposta (JSON):**
 
 ```json
@@ -54,8 +50,10 @@ Editar
   "min": 150.00,
   "max": 300.00
 }
+
 Se não houver transações recentes, os valores numéricos são zero.
-3. Limpar todas as transações armazenadas
+
+### 3. Limpar todas as transações armazenadas
 bash
 Copiar
 Editar
