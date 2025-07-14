@@ -40,6 +40,7 @@ Content-Type: application/json
 
 GET /estatistica
 
+
 **Resposta (JSON):**
 
 ```json
@@ -51,14 +52,9 @@ GET /estatistica
   "max": 300.00
 }
 
-Se não houver transações recentes, os valores numéricos são zero.
+## 3. Limpar todas as transações armazenadas
 
-### 3. Limpar todas as transações armazenadas
-bash
-Copiar
-Editar
 DELETE /transacao
 Resposta:
 
 200 OK - Todas as transações removidas com sucesso.
-
